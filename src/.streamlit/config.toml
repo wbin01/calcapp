@@ -1,5 +1,10 @@
+# https://docs.streamlit.io/library/advanced-features/configuration
+
 [theme]
 primaryColor="#888888"
 backgroundColor="#151515"
 secondaryBackgroundColor="#232323"
 textColor="#b3b3b3"
+
+[server]
+runOnSave = true

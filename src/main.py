@@ -7,4 +7,5 @@ import streamlit as st
 BASE_DIR = pathlib.Path(__file__).resolve().parent.parent
 sys.path.append(BASE_DIR)
 
-st.switch_page('pages/index.py')
+if __name__ == '__main__':
+	st.switch_page('pages/home.py')
