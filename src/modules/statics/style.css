@@ -1,0 +1,48 @@
+/*body {
+    color: #fff;
+    background-color: #4F8BF9;
+}*/
+
+/*.stButton>button {
+    color: #4F8BF9;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+}
+
+.stTextInput>div>div>input {
+    color: #4F8BF9;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Indie+Flower&family=Satisfy&family=Titan+One&display=swap');
+/*.chewy-regular {font-family: "Chewy", system-ui;}*/
+
+* {
+  font-family: "Chewy", system-ui;
+  font-style: normal;
+}
+
+.vscrollbar {
+  height: 50px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 15px;
+}
+.history-p {
+  margin: 0px;
+  padding: 0px;
+}
+.history-values {
+  color: #555555;
+}
+.history-result {
+  color: #1a3f23;
+}
+.result {
+  color: #197a35;
+  font-size: 17px;
+}
+.operations {
+  font-size: 17px;
+}
